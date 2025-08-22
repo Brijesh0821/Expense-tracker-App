@@ -1,0 +1,146 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #e0f7fa;
+}
+
+/* Main container */
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #00796b;
+  margin-bottom: 20px;
+}
+
+/* Balance section */
+.balance-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.balance-section h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.balance-section h2 {
+  font-size: 32px;
+  color: #004d40;
+  margin-top: 10px;
+}
+
+/* Section headings */
+h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #00796b;
+}
+
+/* Form controls */
+.form-control {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 8px;
+}
+
+.btn:hover {
+  background-color: #004d40;
+}
+
+/* Table container */
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #00796b;
+  color: white;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+/* Delete button */
+.delete-btn {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #b71c1c;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+}
